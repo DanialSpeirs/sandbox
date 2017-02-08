@@ -1,0 +1,70 @@
+
+
+header{
+  display: block;
+  background-color: #ffffff;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(50, 50, 50, 0.5);
+  -moz-box-shadow:    0px 1px 3px 0px rgba(50, 50, 50, 0.5);
+  box-shadow:         0px 1px 3px 0px rgba(50, 50, 50, 0.5);
+}
+
+nav {
+  float: right;
+  margin-right: 10px;
+}
+
+nav button {
+  min-width: 80px;
+  height: 30px;
+  line-height: 2em;
+  border-width: 0;
+  outline: none;
+  margin-top: 25px;
+  background-color: #fff;
+  border-radius: 4px;
+  margin-left: 8px;
+  box-shadow: 0px 1px 3px 0px rgba(50, 50, 50, 0.5);
+}
+nav button:active {
+  background-color: #f5f5f5;
+  box-shadow: 0px 1px 1px 0px rgba(50, 50, 50, 0.25);
+}
+
+nav button.action {
+  background-color: #4c80ff;
+  color: #ffffff;
+}
+
+nav button.action:active {
+  background-color: #4b7cf5;
+}
+
+main {
+    margin-top: 80px;
+
+}
+
+footer{
+  display: block;
+  background-color: #ffffff;
+  height: 250px;
+  width: 100%;
+}
+
+.sm-footer {
+  display: block;
+  background-color: transparent;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  padding-left: 10px;
+}
+.sm-footer i {
+  font-size: 40px;
+  margin-top: 20px;
+  margin-right: 8px;
+}
